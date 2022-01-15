@@ -1,0 +1,19 @@
+.btn-success{
+    font-size:20px;
+}
+.btn-info{
+    font-size:30px;
+} 
+.btn:hover{
+    background-color: red;
+}
+canvas{
+    animation-name: colorful;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorful{
+from{box-shadow: #eae26a 1px 1px 30px;}
+to{box-shadow: #cf07cf 1px 1px 30px;}
+
+}
